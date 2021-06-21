@@ -3,6 +3,7 @@ import FCTToken from './artifacts/contracts/FCTToken.sol/FCTToken.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Faucet from './components/Faucet';
+import TokenSend from './components/TokenSend.js';
 
 function App() {
   const token = FCTToken;
@@ -17,7 +18,7 @@ function App() {
             </div>
           </Col>
           <Col>
-            <div>our send area</div>
+            <TokenSend tokenContract={token} />
           </Col>
         </Row>
       </Container>
