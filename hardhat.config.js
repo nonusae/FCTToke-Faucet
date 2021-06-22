@@ -26,6 +26,10 @@ module.exports = {
     hardhat: {
       chainId: 1337,
     },
+    goreli: {
+      url: 'https://goerli.infura.io/v3/3ec2e9ce194648c4aa7eb9c71ecc8a21',
+      accounts: [`0x${process.env.PRIVATE_KEY}`],
+    },
   },
   solidity: '0.8.3',
 };

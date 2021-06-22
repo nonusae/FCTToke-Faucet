@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Message from './Message.js';
 
-const tokenAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
+const tokenAddress = '0x9f62EE65a8395824Ee0821eF2Dc4C947a23F0f25';
 
 const Faucet = ({ tokenContract }) => {
   const [balance, setBalance] = useState('');
